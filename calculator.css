@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-weight:bold;
+    box-sizing: border-box;
+}
+body{
+     font-family: Arial, sans-serif;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100%;
+     background: #ffffff;
+ }      
+#toggle-icon{
+     position: absolute;
+     top:5;
+     left:5;
+     height:30px;     
+ }       
+
+.calculator {
+     padding: 20px;
+     margin: 10px;
+     border-radius: 20px;
+     background: #ffffff;
+     box-shadow: 0 0 20px 5px #000;
+     position: relative;   
+ }       
+.dark-mode .calculator {
+     padding: 20px;
+     margin: 10px;
+     border-radius: 20px;
+     background: #000000;
+     box-shadow: 0 0 20px 5px #fff;
+     position: relative;   
+ }
+
+input {
+    width: 310px;
+    border: none;
+    margin: 200px 5px 10px 10px;
+    background: transparent;
+    padding: 30px;
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color:#000000;   
+    box-shadow: 0 0 15px 5px #d6d9db inset;
+ } 
+         
+.dark-mode input {
+     color:#ffffff; 
+     box-shadow: 0 0 15px 10px #1d1d1d inset;
+ }
+        
+input::placeholder{
+     color: gray;  
+ }       
+       
+button {
+     border:none;
+     width: 60px;
+     height: 60px;
+     font-size: 25px;
+     margin: 10px;
+     border-radius: 30%;
+     color: #000000;
+     cursor: pointer;
+     background:radial-gradient(circle,
+         rgb(240, 244, 244) 8%, rgb(214, 220, 220) 91%);
+ }
+        
+.dark-mode button {
+      border: none;
+      width: 60px;
+      height: 60px;
+      font-size: 25px;
+      margin: 10px;
+      border-radius: 30%;
+      color: #ffffff;
+      cursor: pointer;
+      font-weight:bold;
+      background: radial-gradient(circle, rgba(51,49,49,1) 40%, rgba(62,59,59,1) 99%);    
+ }
+
+        .equalbtn{
+            background:#fc0373;
+            color:#ffffff;
+        }
+        .dark-mode .equalbtn{
+            background:#fc0373;
+            color:#ffffff;
+        }
+        
+        .operator{
+            background:#b103fc;
+            color: #ffffff;
+            font-size: 25px;
+            border-radius: 50%;
+        }
+        .dark-mode .operator{
+            background:#a503fc;
+            color: #ffffff;
+            font-size: 25px;
+            border-radius: 50%;
+        }
+       
+        #column-4{
+            font-size:30px;
+        }
+        
+       .zerobtn{
+            
+            width: 145px;
+            height: 60px;
+            border-radius:15px;
+        } 
+        .dark-mode .zerobtn{
+            width: 145px;
+            height: 60px;
+            border-radius:15px;
+        }         
+       
