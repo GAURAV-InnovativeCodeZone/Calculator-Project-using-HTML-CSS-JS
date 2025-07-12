@@ -9,6 +9,31 @@
    <a href="moon.png"><li>image1</li></a>
    <a href="sun.png"><li>image2</li></a>
 </ul>
+## 📂 Project Structure
+
+```
+/Login-and-Signup-form-using-HTML-CSS-JS
+│
+├── calculator.html        # Main HTML file containing both forms
+├── calculator.css         # CSS for layout, colors, and responsiveness
+├── calculatort.js         # JavaScript for form switching and validation
+└── README.md              # Project documentation (this file)
+|__ ☾ moon.png             # shift calculatot on dark mode
+|__ ☀ sun.png             # shift calculatot on light mode
+```
+
+## 📸 Screenshots
+
+### LIGHT MODE
+
+![image1](lightimageSS1.png)
+
+### DARK MODE
+
+![image2](darkimageSS2.png)
+
+---
+
 
 <h3>Explain this HTML code</h3>
 <P>This code snippet is an HTML document that defines the structure of a simple calculator web application.</P>
@@ -57,3 +82,5 @@
   
 <h2>Overall Summary</h2>
 <p>Overall, this calculator project demonstrates fundamental web development skills, including DOM manipulation, event handling, and user interface design, while providing a functional tool for basic mathematical calculations and a user-friendly experience with a dark mode feature.</p>
+
+**Made with ❤️ by [GAURAV-InnovativeCodeZone](https://github.com/GAURAV-InnovativeCodeZone)**
